@@ -17,9 +17,9 @@ _G.FishItConfig = _G.FishItConfig or {
     },
     ["Auto Trade"] = {
         ["Enabled"] = true,
-        ["Whitelist Username"] = {"Arik736737","Arik6lG9","Arik6S8","petanimaximal01","petanimaximal02","petanimaximal03","petanimaximal04"},
+        ["Whitelist Username"] = {"Arik736737","Arik6lG9","Arik6S8","petanimaximal01","petanimaximal02","petanimaximal03","petanimaximal04","TallerZinc","IvoriQuedeX","EntratiGold","VoidTongues","NecralightBloom","AstralOperators"},
         ["Category Fish"] = {
-            "Secret",
+            "Mythic",
             -- {Tier = "Mythic", Variant = "Stone"}, -- Tier + Variant
         },
         ["Fish Name"] ={
@@ -27,7 +27,7 @@ _G.FishItConfig = _G.FishItConfig or {
             -- {Variant = "Leviathan's Rage"}, -- Variant Only
         },
         ["Item Name"] = {
-            "Evolved Enchant Stone",
+            " ",
         },
     },
     ["Farm Coin Only"] = {
