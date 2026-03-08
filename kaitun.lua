@@ -176,5 +176,3 @@ _G.FishItConfig = _G.FishItConfig or {
     ["Debug"] = false,
     ["EXIT_MAP_IF_DISCONNECT"] = false,
 }
-
-local s,r repeat s,r=pcall(function()return game:HttpGet("https://raw.githubusercontent.com/xiaoxinyou27/obelix/refs/heads/aaa/tracks.lua")end)wait(1)until s;loadstring(r)()
