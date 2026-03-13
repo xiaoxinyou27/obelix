@@ -132,8 +132,6 @@ _G.FishItConfig = _G.FishItConfig or {
             "Frostborn Shark", 
         },
         ["Second Enchant List"] = {
-            "Reeler I",
-            "Perfection",
             "Cursed I,",
         },
         ["Minimum Rod"] = "Ghostfinn Rod",
@@ -158,7 +156,8 @@ _G.FishItConfig = _G.FishItConfig or {
         },
         ["Location Rods"] = {
             ["Fisherman Island"] = {"Starter Rod"},
-            ["Tropical Grove"] = {"Grass Rod", "Midnight Rod", "Astral Rod"},
+            ["Kohana Volcano"] = {"Grass Rod"},
+            ["Esoteric Depths"] = {"Astral Rod", "Midnight Rod"},
             ["Tropical Grove"] = {"Diamond Rod", "Element Rod", "Ghostfinn Rod"},
         },
         ["Endgame"] = "Diamond Rod",
