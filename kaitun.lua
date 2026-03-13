@@ -19,12 +19,13 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Enabled"] = true,
         ["Whitelist Username"] = {"Arik736737","Arik6lG9","Arik6S8","petanimaximal01","petanimaximal02","petanimaximal03","petanimaximal04","TallerZinc","IvoriQuedeX","EntratiGold","VoidTongues","NecralightBloom","AstralOperators"},
         ["Category Fish"] = {
-            "Secret","Sacred Guardian Squid",
+            "Secret",
             -- {Tier = "Mythic", Variant = "Stone"}, -- Tier + Variant
         },
-        ["Fish Name"] ={
-            {Name = "Ruby", Variant = "Gemstone"},
-            -- {Variant = "Leviathan's Rage"}, -- Variant Only
+        ["Fish Name"] = {
+            "Sacred Guardian Squid", -- Fish Name Only
+            {Name = "Ruby", Variant = "Gemstone"}, -- Fish Name + Variant
+            {Variant = "Leviathan Rage"}, -- Variant Only
         },
         ["Item Name"] = {
             "Evolved Enchant Stone",
