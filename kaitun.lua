@@ -43,7 +43,7 @@ _G.FishItConfig = _G.FishItConfig or {
     ["Doing Quest"] = {
         ["Auto Ghostfinn Rod"] = true,
         ["Unlock Ancient Ruin"] = true,
-        ["Auto Element Rod"] = false,
+        ["Auto Element Rod"] = true,
         ["Auto Diamond Rod"] = false,
         ["Allowed Sacrifice"] = {
             "Ghost Shark",
@@ -109,14 +109,12 @@ _G.FishItConfig = _G.FishItConfig or {
     },
     ["Enchant"] = {
         ["Auto Enchant"] =true,
-        ["Roll Enchant"] = true,
-        ["Evolved Roll Enchant"] = true,
+        ["Roll Enchant"] = false,
+        ["Evolved Roll Enchant"] = false,
         ["Enchant List"] = {
-            "Reeler II",
-            "Reeler I",
-            "SECRET Hunter",
+            "Cursed I,",
         },
-        ["Second Enchant"] = false,
+        ["Second Enchant"] = true,
         ["Allowed Sacrifice"] = {
             "Ghost Shark",
             "Cryoshade Glider",
@@ -136,7 +134,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Second Enchant List"] = {
             "Reeler I",
             "Perfection",
-            "Empowered I,",
+            "Cursed I,",
         },
         ["Minimum Rod"] = "Ghostfinn Rod",
     },
