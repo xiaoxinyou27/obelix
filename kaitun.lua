@@ -59,7 +59,7 @@ _G.FishItConfig = _G.FishItConfig or {
             "Elshark Gran Maja", 
             "Bone Whale", 
             "Gladiator Shark", 
-            "Frostborn Shark", 
+            "Frostborn Shark",  
         },
         ["FARM_LOC_SECRET_SACRIFICE"] = "Ocean",
 
@@ -127,7 +127,7 @@ _G.FishItConfig = _G.FishItConfig or {
             "Elshark Gran Maja", 
             "Bone Whale", 
             "Gladiator Shark", 
-            "Frostborn Shark", 
+            "Great Whale", 
         },
         ["Second Enchant List"] = {
             "Cursed I,",
