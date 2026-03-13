@@ -130,7 +130,8 @@ _G.FishItConfig = _G.FishItConfig or {
             "Great Whale", 
         },
         ["Second Enchant List"] = {
-            "Cursed I,",
+            "Reeler I",
+            "Perfection",
         },
         ["Minimum Rod"] = "Ghostfinn Rod",
     },
