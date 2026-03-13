@@ -43,7 +43,7 @@ _G.FishItConfig = _G.FishItConfig or {
     ["Doing Quest"] = {
         ["Auto Ghostfinn Rod"] = true,
         ["Unlock Ancient Ruin"] = true,
-        ["Auto Element Rod"] = true,
+        ["Auto Element Rod"] = false,
         ["Auto Diamond Rod"] = false,
         ["Allowed Sacrifice"] = {
             "Ghost Shark",
@@ -67,20 +67,11 @@ _G.FishItConfig = _G.FishItConfig or {
     },
     ["WebHook"] = {
         ["Link Webhook"] = "https://discord.com/api/webhooks/1461624009652174993/VUvDd-ajmGzsXI_QKxw7BaWBKyHrZVYRl2SmPYqShbGuR_7689LxcJmdWjetLo6JuFPo",
-    ["Auto Sending"] = true,
-    ["Category"] = {
-        "Secret",
-        {Name = "Ruby", Variant = "Gemstone"},
-    },
-    ["Item Name"] = {
-        "Evolved Enchant Stone",
-    },
-    ["Link Webhook"] = "https://discord.com/api/webhooks/1461624009652174993/VUvDd-ajmGzsXI_QKxw7BaWBKyHrZVYRl2SmPYqShbGuR_7689LxcJmdWjetLo6JuFPo",
+        ["Auto Sending"] = true,
+        ["Category"] = {"Secret"},
 
         ["Link Webhook Quest Complete"] = "https://discord.com/api/webhooks/1461624009652174993/VUvDd-ajmGzsXI_QKxw7BaWBKyHrZVYRl2SmPYqShbGuR_7689LxcJmdWjetLo6JuFPo",
     },
-
-    
     ["Weather"] = {
         ["Auto Buying"] = true,
         ["Minimum Rod"] = "Ghostfinn Rod",
@@ -101,9 +92,9 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Use"] = true,
         ["Minimum Rod"] = "Ghostfinn Rod",
         ["Buy List"] = {
-            ["Mutation Totem"] = 50,
-            " ",
-            " ",
+            ["Luck Totem"] = 20,
+            "Mutation Totem",
+            "Shiny Totem",
         },
     },
     ["Event"] = {
@@ -119,11 +110,13 @@ _G.FishItConfig = _G.FishItConfig or {
     ["Enchant"] = {
         ["Auto Enchant"] =true,
         ["Roll Enchant"] = true,
-        ["Evolved Roll Enchant"] = false,
+        ["Evolved Roll Enchant"] = true,
         ["Enchant List"] = {
-            "Cursed I",
+            "Reeler II",
+            "Reeler I",
+            "SECRET Hunter",
         },
-        ["Second Enchant"] = true,
+        ["Second Enchant"] = false,
         ["Allowed Sacrifice"] = {
             "Ghost Shark",
             "Cryoshade Glider",
@@ -143,7 +136,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Second Enchant List"] = {
             "Reeler I",
             "Perfection",
-            "Cursed I,",
+            "Empowered I,",
         },
         ["Minimum Rod"] = "Ghostfinn Rod",
     },
@@ -168,7 +161,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Location Rods"] = {
             ["Fisherman Island"] = {"Starter Rod"},
             ["Tropical Grove"] = {"Grass Rod", "Midnight Rod", "Astral Rod"},
-            ["Treasure Room"] = {"Diamond Rod", "Element Rod", "Ghostfinn Rod"},
+            ["Ancient Ruin"] = {"Diamond Rod", "Element Rod", "Ghostfinn Rod"},
         },
         ["Endgame"] = "Diamond Rod",
     },
