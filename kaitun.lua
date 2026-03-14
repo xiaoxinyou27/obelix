@@ -111,8 +111,11 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Evolved Roll Enchant"] = true,
         ["Enchant List"] = {
             "Cursed I,",
+            "Reeler II,",
+            "Reeler I,",
+            "SECRET Hunter,",
         },
-        ["Second Enchant"] = true,
+        ["Second Enchant"] = false,
         ["Allowed Sacrifice"] = {
             "Ghost Shark",
             "Cryoshade Glider",
@@ -156,8 +159,8 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Location Rods"] = {
             ["Fisherman Island"] = {"Starter Rod"},
             ["Kohana Volcano"] = {"Grass Rod"},
-            ["Tropical Grove"] = {"Astral Rod", "Midnight Rod"},
-            ["Tropical Grove"] = {"Diamond Rod", "Element Rod", "Ghostfinn Rod"},
+            ["Esoteric Depths"] = {"Astral Rod", "Midnight Rod"},
+            ["Ancient Ruin"] = {"Diamond Rod", "Element Rod", "Ghostfinn Rod"},
         },
         ["Endgame"] = "Diamond Rod",
     },
