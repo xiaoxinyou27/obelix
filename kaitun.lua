@@ -107,9 +107,6 @@ _G.FishItConfig = _G.FishItConfig or {
             "Shark Hunt",
             "Megalodon Hunt",
         },
-    }
-            -- ["Ancient Lochness Monster"] = true,
-        },
     },
     ["Enchant"] = {
         ["Auto Enchant"] =true,
