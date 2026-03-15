@@ -92,17 +92,23 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Use"] = true,
         ["Minimum Rod"] = "Ghostfinn Rod",
         ["Buy List"] = {
-            ["Mutation Totem"] = 200,
+            ["Luck Totem"] = 100,
+            "Mutation Totem",
+            "Shiny Totem",
         },
     },
     ["Event"] = {
-        ["Start Farm"] = false,
+        ["Start Farm"] = true,
         ["Minimum Rod"] = "Ghostfinn Rod",
         ["Event List"] = {
-            "Megalodon Hunt",
+            ["Mutant Runic Koi"] = true,
+            ["Ancient Lochness Monster"] = true,
             "Ghost Shark Hunt",
             "Shark Hunt",
-            -- ["Ancient Lochness Monster"] = false,
+            "Megalodon Hunt",
+        },
+    }
+            -- ["Ancient Lochness Monster"] = true,
         },
     },
     ["Enchant"] = {
